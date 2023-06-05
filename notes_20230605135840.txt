@@ -1,0 +1,39 @@
+06.05 1:55 PM
+Theharvester
+theHarvester is a Python-based tool used for gathering information from various public sources, such as search engines, social media platforms, and other websites. It allows you to search for email addresses, hostnames, subdomains, employee names, open ports, and more. It is commonly used in reconnaissance and information gathering during penetration testing or ethical hacking engagements.
+
+Installation Process:
+
+Open a terminal on your Linux machine.
+
+Ensure that you have Python and pip (Python package installer) installed. You can check if they are already installed by running the following commands:
+python --version
+pip --version
+If Python and pip are not installed, you can install them using the package manager specific to your Linux distribution. For example, on Ubuntu or Debian, you can use the following command:
+
+sudo apt-get install python3 python3-pip
+
+Once you have Python and pip installed, you can proceed with installing theHarvester. Use the following command:
+
+sudo pip install theHarvester
+
+This command will download and install theHarvester along with its dependencies.
+
+Usage:
+
+Once theHarvester is installed, you can run it from the terminal using the theHarvester command. Here's an example command that demonstrates the basic usage:
+
+theHarvester -d example.com -l 500 -b all
+
+In this example:
+-d specifies the target domain (replace example.com with your target domain).
+-l specifies the limit for search engine results (e.g., 500).
+-b specifies the data sources or modules to use. In this case, all indicates that all available modules will be used. You can also specify individual modules, such as -b google or -b linkedin.
+
+theHarvester will start searching the specified sources and gather information based on your provided options. The results will be displayed in the terminal.
+
+It's important to note that when using theHarvester, you should respect the terms and conditions of the sources you're gathering information from. Additionally, ensure that you use the tool responsibly and in compliance with legal and ethical boundaries.
+
+
+
+
