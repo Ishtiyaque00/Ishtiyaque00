@@ -7,7 +7,7 @@ Installation Process:
 Open a terminal on your Linux machine.
 
 Ensure that you have Python and pip (Python package installer) installed. You can check if they are already installed by running the following commands:
-python --version
+<b>python --version</b>
 pip --version
 If Python and pip are not installed, you can install them using the package manager specific to your Linux distribution. For example, on Ubuntu or Debian, you can use the following command:
 
